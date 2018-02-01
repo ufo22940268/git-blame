@@ -5,4 +5,4 @@ if [ $# -ne 2 ]; then
     exit -1
 fi
 
-git log $1..$2 --pretty=format:"%h %an %ci" | sort -k2 -r
+git log $1..$2 --pretty=format:"%h %an %ci -%s" --abbrev-commit --date=short | sort -k2 -r
