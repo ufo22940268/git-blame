@@ -1,7 +1,7 @@
 # git-blame
 
 ```bash
-➜  Saturn git:(master) ✗ ~/test/git-blame 264c64f89c00f363692e04c821e578dff48ec44d 992e1a375671309bf3a48fbce474d2260eda0312
+➜  Saturn git:(master) ✗ ./git-blame 264c64f89c00f363692e04c821e578dff48ec44d 992e1a375671309bf3a48fbce474d2260eda0312
 811041412 youcy 2018-01-19 16:57:50 +0800
 47d98c449 youcy 2018-01-19 16:27:40 +0800
 a77da1bd1 youcy 2018-01-18 11:29:42 +0800
